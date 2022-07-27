@@ -4,13 +4,13 @@
 ```kotlin  
 val bigDecimal = 123456879.12.toBigDecimal()
 
-                    TextField(
-                        value = bigDecimal.toString(),
-                        onValueChange = {},
-                        visualTransformation = BigDecimalVisualTransformationWithUnit(
-                            unit = "α",
-                        )
-                    )
+TextField(
+    value = bigDecimal.toString(),
+    onValueChange = {},
+    visualTransformation = BigDecimalVisualTransformationWithUnit(
+        unit = "α",
+    )
+)
 ```
 
 ## How it looks
