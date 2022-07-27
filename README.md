@@ -2,19 +2,15 @@
 
 ## Usage
 ```kotlin  
-BubbleNavigationBar{
-    navigationItems.forEach { navigationItem ->
-        BubbleNavigationBarItem(
-            selected = currentRoute == navigationItem.route,
-            onClick = {
-                //Navigate
-            },
-            icon = navigationItem.icon,
-            title = navigationItem.title,
-            selectedColor = navigationItem.selectedColor
-        )
-    }
-}
+val bigDecimal = 123456879.12.toBigDecimal()
+
+                    TextField(
+                        value = bigDecimal.toString(),
+                        onValueChange = {},
+                        visualTransformation = BigDecimalVisualTransformationWithUnit(
+                            unit = "α",
+                        )
+                    )
 ```
 
 ## How it looks
