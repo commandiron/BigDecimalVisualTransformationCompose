@@ -16,7 +16,7 @@ TextField(
 
 Text(
     text = BigDecimalVisualTransformationWithUnit().getTransformedText(
-    text = bigDecimal.toString(),
+        text = bigDecimal.toString(),
         addedUnit = "β"
     ),
 )
