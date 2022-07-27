@@ -24,7 +24,7 @@ Text(
 
 ## How it looks
 
-<img src="https://user-images.githubusercontent.com/50905347/181236647-600e6825-a221-4bd3-8834-97ee90a7b2ec.png" width="589" height="300">
+<img src="https://user-images.githubusercontent.com/50905347/181237815-40a91ce6-c40f-45e8-8020-ac92250baa7e.png" width="589" height="250">
 
 ## Setup
 1. Open the file `settings.gradle` (it looks like that)
