@@ -8,7 +8,7 @@ TextField(
     value = bigDecimal.toString(),
     onValueChange = {},
     visualTransformation = BigDecimalVisualTransformationWithUnit(
-        unit = "α",
+        unit = "β",
     )
 )
 
