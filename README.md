@@ -11,6 +11,15 @@ TextField(
         unit = "α",
     )
 )
+
+//Also you can use with Text components.
+
+Text(
+    text = BigDecimalVisualTransformationWithUnit().getTransformedText(
+    text = bigDecimal.toString(),
+        addedUnit = "β"
+    ),
+)
 ```
 
 ## How it looks
