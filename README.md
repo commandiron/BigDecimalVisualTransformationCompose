@@ -1,4 +1,5 @@
-# BigDecimalVisualTransformationCompose
+# BigDecimalVisualTransformationCompose [![](https://jitpack.io/v/commandiron/BigDecimalVisualTransformationCompose.svg)](https://jitpack.io/#commandiron/BigDecimalVisualTransformationCompose)
+
 
 ## Usage
 ```kotlin  
